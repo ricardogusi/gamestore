@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+.navbar-nav {
+    font-family: 'Bangers',cursive ;
+    font-weight: bold;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    width: 80px;
+    height: 50px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover; 
+    cursor: pointer;
+}
+
+.conteudo  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+
+.conteudo img {
+    margin-left: 30px;
+}
+
+.conteudo p {
+    width: 400px;
+    font-family: "Roboto", sans-serif;
+    margin-right: 30px;
+    margin: 60px auto;
+    font-size: large;
+}
+
+.produtos {
+    margin-top: 60px;
+    
+}
+.produtos img {
+    height: 300px;
+    object-fit: scale-down;
+    margin-top: 60px;
+}
+
+.produtos .card {
+    border: none;
+}
+
+.produtos .card-title {
+    font-family: "Bangers";
+    font-size: 30px;
+    text-align: center;
+}
+
+.produtos .card-text {
+    font-family: "Roboto";
+}
+
+.promocao {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+
+.promocao img {
+    width: 250px;
+    height: 250px;
+    margin: 70px ;
+    margin-left: 150px;
+}
+
+.promocao p {
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.promocao button {
+    cursor: pointer;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+footer {
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 100px;
+}
+
+.efeito {
+    opacity: 0.5;
+    transition: 5ms;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+form {
+    display: flex;
+    
+}
+
+.form-group {
+    display: block;
+    margin: 20px  auto;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Bangers";
+    padding: 70px;
+}
+
+iframe {
+    margin-left: 370px;
+}
